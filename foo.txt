@@ -1,1 +1,1 @@
-Information about foo2.
+Foo is changed.
