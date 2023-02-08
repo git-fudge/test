@@ -24,7 +24,7 @@ function getCalculate(array $options): float
 | `operation` | [`string (OperationTypeEnum)`](../../doc/models/operation-type-enum.md) | Template, Required | The operator to apply on the variables |
 | `x` | `float` | Query, Required | The LHS value |
 | `y` | `float` | Query, Required | The RHS value |
-| `z` | `float` | Query, Required | test |
+| `z` | `float` | Query, Required | asda |
 
 ## Response Type
 
