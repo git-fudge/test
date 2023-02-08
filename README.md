@@ -24,6 +24,15 @@ Or add it to the composer.json file manually as given below:
 You can also view the package at:
 https://packagist.org/packages/string/string#7.2.3
 
+## Test the SDK
+
+Unit tests in this SDK can be run using PHPUnit.
+
+1. First install the dependencies using composer including the `require-dev` dependencies.
+2. Run `vendor\bin\phpunit --verbose` from commandline to execute tests. If you have installed PHPUnit globally, run tests using `phpunit --verbose` instead.
+
+You can change the PHPUnit test configuration in the `phpunit.xml` file.
+
 ## Initialize the API Client
 
 **_Note:_** Documentation for the client can be found [here.](doc/client.md)
