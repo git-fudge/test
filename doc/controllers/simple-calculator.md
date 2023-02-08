@@ -24,7 +24,6 @@ function getCalculate(array $options): float
 | `operation` | [`string (OperationTypeEnum)`](../../doc/models/operation-type-enum.md) | Template, Required | The operator to apply on the variables |
 | `x` | `float` | Query, Required | The LHS value |
 | `y` | `float` | Query, Required | The RHS value |
-| `z` | `float` | Query, Required | test |
 
 ## Response Type
 
@@ -43,9 +42,6 @@ $collect['x'] = $x;
 
 $y = 165.14;
 $collect['y'] = $y;
-
-$z = 163.94;
-$collect['z'] = $z;
 
 $result = $simpleCalculatorController->getCalculate($collect);
 ```
