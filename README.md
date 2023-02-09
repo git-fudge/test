@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```php
-composer require "strings/strings:7.2.4"
+composer require "gitlab/strings:1.2.8"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```php
 "require": {
-    "strings/strings": "7.2.4"
+    "gitlab/strings": "1.2.8"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/strings/strings#7.2.4
+https://packagist.org/packages/gitlab/strings#1.2.8
 
 ## Initialize the API Client
 
