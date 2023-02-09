@@ -7,7 +7,7 @@
     ],
     "homepage": "https://www.apimatic.io",
     "license": [
-        "string"
+        "MIT"
     ],
     "authors": [
         {
