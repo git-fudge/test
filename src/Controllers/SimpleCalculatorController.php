@@ -35,8 +35,7 @@ class SimpleCalculatorController extends BaseController
                     ->extract('operation')
                     ->serializeBy([OperationTypeEnum::class, 'checkValue']),
                 QueryParam::init('x', $options)->extract('x'),
-                QueryParam::init('y', $options)->extract('y'),
-                QueryParam::init('z', $options)->extract('z')
+                QueryParam::init('y', $options)->extract('y')
             );
 
         return $this->execute($_reqBuilder);
