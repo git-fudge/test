@@ -1,5 +1,5 @@
 {
-    "name": "strings/strings",
+    "name": "string/string",
     "description": "string",
     "type": "string",
     "keywords": [
@@ -7,7 +7,7 @@
     ],
     "homepage": "https://www.apimatic.io",
     "license": [
-        "MIT"
+        "string"
     ],
     "authors": [
         {
